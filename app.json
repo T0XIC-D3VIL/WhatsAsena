@@ -1,9 +1,9 @@
 {
-    "name": "WhatsAsenaPublic",
-    "description": "WhatsAsenaPublic - Made By TOXIC DEVIL.",
+    "name": "WhatsAsenaForFounder",
+    "description": "WhatsAsenaForFounder - Founder: TOXIC DEVIL.",
     "logo": "https://i.ibb.co/9H56Ct5/20210305-083215.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/TOXIC-DEVIL/WhatsAsenaPublic",
+    "repository": "https://github.com/T0XIC-D3VIL/WhatsAsena",
     "website":   "https://t.me/phaticusthiccy",
     "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
@@ -43,7 +43,7 @@
         "MUTE_MESSAGE": {
             "description": "Düzenlenebilir Mute Mesajı. Customizable Mute Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "😈 *Group Has Been Muted* 😈"
         },
         "BLOCK_CHAT": {
             "description": "Choose in which chat the bot won't work there. Ex: 905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...",
@@ -53,7 +53,7 @@
         "UNMUTE_MESSAGE": {
             "description": "Düzenlenebilir Unmute Mesajı. Customizable Unmute Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "😈 *Group Has Been Unmuted* 😈"
         },
         "HEROKU_APP_NAME": {
             "description": "Herokuda uygulama adı. Heroku APP Name.",
@@ -71,27 +71,27 @@
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": " 😈 *Ha Ha Looser* 😈"
         },
         "KICKME_MESSAGE": {
             "description": "Customizable Kickme Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "😈 *I don't Want To Stay Here Anymore* 😈"
         },
         "PROMOTE_MESSAGE": {
             "description": "Customizable Promote Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": " 😈 *You Are Now an Admin* 😈"
         },
         "DEMOTE_MESSAGE": {
             "description": "Customizable Demote Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": " 😈 *You are No Longer An Admin* 😈"
         },
         "ALIVE_LOGO": {
             "description": "Customizable Alive Logo! Use => https://i.ibb.co/hdb4VFH/IMG-20210516-WA0008.jpg, to change back.",
             "required": true,
-            "value": "https://i.ibb.co/hdb4VFH/IMG-20210516-WA0008.jpg"
+            "value": "https://i.ibb.co/YLX8S6c/20210305-083215.jpg"
         },
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
