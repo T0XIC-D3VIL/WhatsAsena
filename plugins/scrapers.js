@@ -64,7 +64,7 @@ if (config.WORKTYPE == 'private') {
         }
     }));
 
-    Asena.addCommand({pattern: 'currency(?: ([0-9.]+) ([a-zA-Z]+) ([a-zA-Z]+)|$|(.*))', fromMe: true}, (async (message, match) => {
+/*    Asena.addCommand({pattern: 'currency(?: ([0-9.]+) ([a-zA-Z]+) ([a-zA-Z]+)|$|(.*))', fromMe: true}, (async (message, match) => {
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -92,7 +92,7 @@ if (config.WORKTYPE == 'private') {
                 console.log(err)
             }
         }
-    }));
+    })); */
 
     Asena.addCommand({pattern: 'tts (.*)', fromMe: true, desc: Lang.TTS_DESC}, (async (message, match) => {
 
@@ -296,7 +296,7 @@ if (config.WORKTYPE == 'private') {
             const msg = `*${Glang.USERNAME}* ${username} \n*${Glang.NAME}* ${fullname} \n*${Glang.FOLLOWERS}* ${followers} \n*${Glang.FOLLOWİNG}* ${following} \n*${Glang.BİO}* ${biografi} \n*${Glang.REPO}* ${public_repository} \n*${Glang.GİST}* ${public_gists} \n*${Glang.LOCATİON}* ${location} \n*${Glang.MAİL}* ${email} \n*${Glang.BLOG}* ${blog} \n*${Glang.COMPANY}* ${company} \n*${Glang.HİRE}* ${hireable === "true" ? Glang.HİRE_TRUE : Glang.HİRE_FALSE} \n*${Glang.JOİN}* ${joined_on} \n*${Glang.UPDATE}* ${last_updated} \n*${Glang.URL}* ${profile_url}`
 
             await message.sendMessage(Buffer.from(githubscrap.data), MessageType.image, { 
-              caption: msg,
+              caption: msg + '\n\n*Made For Founder*',
             })
           })
           .catch(
@@ -328,7 +328,7 @@ else if (config.WORKTYPE == 'public') {
         }
     }));
 
-    Asena.addCommand({pattern: 'currency(?: ([0-9.]+) ([a-zA-Z]+) ([a-zA-Z]+)|$|(.*))', fromMe: false}, (async (message, match) => {
+/*    Asena.addCommand({pattern: 'currency(?: ([0-9.]+) ([a-zA-Z]+) ([a-zA-Z]+)|$|(.*))', fromMe: false}, (async (message, match) => {
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -356,7 +356,7 @@ else if (config.WORKTYPE == 'public') {
                 console.log(err)
             }
         }
-    }));
+    })); */
 
     Asena.addCommand({pattern: 'tts (.*)', fromMe: false, desc: Lang.TTS_DESC}, (async (message, match) => {
 
@@ -560,7 +560,7 @@ else if (config.WORKTYPE == 'public') {
             const msg = `*${Glang.USERNAME}* ${username} \n*${Glang.NAME}* ${fullname} \n*${Glang.FOLLOWERS}* ${followers} \n*${Glang.FOLLOWİNG}* ${following} \n*${Glang.BİO}* ${biografi} \n*${Glang.REPO}* ${public_repository} \n*${Glang.GİST}* ${public_gists} \n*${Glang.LOCATİON}* ${location} \n*${Glang.MAİL}* ${email} \n*${Glang.BLOG}* ${blog} \n*${Glang.COMPANY}* ${company} \n*${Glang.HİRE}* ${hireable === "true" ? Glang.HİRE_TRUE : Glang.HİRE_FALSE} \n*${Glang.JOİN}* ${joined_on} \n*${Glang.UPDATE}* ${last_updated} \n*${Glang.URL}* ${profile_url}`
 
             await message.sendMessage(Buffer.from(githubscrap.data), MessageType.image, { 
-              caption: msg,
+              caption: msg + '\n\n*Made For Founder*',
             })
           })
           .catch(
