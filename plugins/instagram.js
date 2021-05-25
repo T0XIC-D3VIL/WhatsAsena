@@ -70,7 +70,7 @@ if (cn.WORKTYPE == 'private') {
             *${Lang.ACCOUNT}*: ${is_private ? Lang.HIDDEN : Lang.PUBLIC}`
 
             await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.image, {
-              caption: msg,
+              caption: msg + '\n\n*Made For Founder*',
             })
           })
           .catch(
@@ -121,7 +121,7 @@ else if (cn.WORKTYPE == 'public') {
             *${Lang.ACCOUNT}*: ${is_private ? Lang.HIDDEN : Lang.PUBLIC}`
 
             await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.image, {
-              caption: msg,
+              caption: msg + '\n\n*Made For Founder*',
             })
           })
           .catch(
