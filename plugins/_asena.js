@@ -85,7 +85,7 @@ if (Config.WORKTYPE == 'private') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'● *WhatsAsenaPublic For Found* ●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'● *WhatsAsenaPublic For Founder* ●\n\n' + CMD_HELP, MessageType.text
             );
         }
     }));
