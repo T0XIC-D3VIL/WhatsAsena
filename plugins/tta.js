@@ -12,10 +12,11 @@ const Asena = require('../events');
 const {MessageType,Mimetype} = require('@adiwajshing/baileys');
 const config = require('../config');
 const fs = require('fs');
+const TTA_DESC = "Converts Text To Audio"
 const https = require('https');
 const googleTTS = require('google-translate-tts');
 
-Asena.addCommand({pattern: 'tta (.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+Asena.addCommand({pattern: 'tta (.*)', fromMe: true, desc: TTA_DESC }, (async (message, match) => {
     if(match[1] === undefined || match[1] == "")
         return;
     
