@@ -51,7 +51,7 @@ Asena.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC}, (a
 }));
 
 
-Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
+/* Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
         if (!!message.mention && message.mention[0] == '919544707896@s.whatsapp.net','6283196885072@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./upload/MENTION.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
@@ -61,7 +61,7 @@ let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
        await message.client.sendMessage(message.jid, fs.readFileSync('./upload/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: true})
 }
-});
+}); */
 
     var filtreler = await FilterDb.getFilter(message.jid);
     if (!filtreler) return; 
