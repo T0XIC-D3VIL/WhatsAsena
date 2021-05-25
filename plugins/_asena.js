@@ -49,7 +49,7 @@ if (Config.WORKTYPE == 'private') {
             );
         
             await message.client.sendMessage(
-                message.jid,'● *WhatsAsenaPublic For Founder* ●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'● *WhatsAsenaPublic For Founder* ●\n\n● Note : You Cannot Use This Bot Because Its Special For The Developer, You Can Use This Git : https://github.com/TOXIC-DEVIL/WhatsAsenaPublic ●*\n\n' + CMD_HELP, MessageType.text
             );    
         } else {
 
@@ -85,8 +85,8 @@ if (Config.WORKTYPE == 'private') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'● *WhatsAsenaPublic For Founder* ●\n\n' + CMD_HELP, MessageType.text
-            );
+                message.jid,'● *WhatsAsenaPublic For Founder* ●\n\n● Note : You Cannot Use This Bot Because Its Special For The Developer, You Can Use This Git : https://github.com/TOXIC-DEVIL/WhatsAsenaPublic ●*\n\n' + CMD_HELP, MessageType.text
+            );    
         }
     }));
 }
