@@ -1,10 +1,11 @@
 const Asena = require('../events');
 const Config = require('../config');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
+const NK_AN = "It Sends Random Neko Animes"
 const fs = require('fs');
 const axios = require('axios');
 
-    Asena.addCommand({ pattern: 'nekoanime', fromMe: false }, async (message, match) => {
+    Asena.addCommand({ pattern: 'nekoanime', fromMe: false, desc: NK_AN }, async (message, match) => {
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -23,7 +24,7 @@ const axios = require('axios');
             })
 
             await message.sendMessage(Buffer.from(imageBuffer.data), MessageType.image, {
-                        caption: "Made By WhatsAsenaPublic"
+                        caption: "*Made For Founder*"
             })
           })
       },
