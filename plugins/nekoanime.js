@@ -5,7 +5,7 @@ const NK_AN = "It Sends Random Neko Animes"
 const fs = require('fs');
 const axios = require('axios');
 
-    Asena.addCommand({ pattern: 'nekoanime', fromMe: false, desc: NK_AN }, async (message, match) => {
+    Asena.addCommand({ pattern: 'nekoanime', fromMe: true, desc: NK_AN }, async (message, match) => {
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
