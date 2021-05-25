@@ -44,7 +44,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Made by WhatsAsena - Dodge TBlend'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '*Made For Founder* - *Dodge TBlend*'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -64,7 +64,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Made by WhatsAsena - Or TBlend'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '*Made For Founder* - *Or TBlend*'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -84,7 +84,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Made by WhatsAsena - Multiply TBlend'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '*Made For Founder* - *Multiply TBlend*'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -104,7 +104,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Made by WhatsAsena - Grainmerge TBlend'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '*Made For Founder* - *Grainmerge TBlend*'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -124,7 +124,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Made by WhatsAsena - And TBlend'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '*Made For Founder* - *And TBlend*'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -144,7 +144,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Made by WhatsAsena - Burn TBlend'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '*Made For Founder* - *Burn TBlend*'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -164,7 +164,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Made by WhatsAsena - Difference TBlend'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '*Made For Founder* - *Difference TBlend*'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -184,7 +184,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Made by WhatsAsena - Grainextract TBlend'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '*Made For Founder* - *Grainextract TBlend*'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -204,7 +204,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Made by WhatsAsena - Divide TBlend'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '*Made For Founder* - *Divide TBlend*'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -224,7 +224,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Made by WhatsAsena - Xor TBlend'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '*Made For Founder* - *Xor TBlend*'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -244,7 +244,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Made by WhatsAsena - Hardmix TBlend'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '*Made For Founder* - *Hardmix TBlend*'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -264,7 +264,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Made by WhatsAsena - Negation TBlend'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '*Made For Founder* - *Negation TBlend*'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
 
